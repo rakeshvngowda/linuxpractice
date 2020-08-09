@@ -7,4 +7,7 @@ def water():
     print('i can drink water')
 def beer():
     print('i can drink beer')
+def hot():
+    print('i can drink beer')
+    
     
