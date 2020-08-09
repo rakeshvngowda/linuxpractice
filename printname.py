@@ -5,6 +5,5 @@ def soda():
     print('i can drink soda')
 def water():
     print('i can drink water')
-def hot():
-    print('i can drink hot drinks')
+
     
