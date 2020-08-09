@@ -1,2 +1,3 @@
-def print_name(name):
-  returnn name
+def name():
+    name = 'rakesh'
+    print('my name is', name)
