@@ -1,13 +1,12 @@
-def name():
-    name = 'rakesh'
-    print('my name is', name)
-def soda():
-    print('i can drink soda')
-def water():
-    print('i can drink water')
-def beer():
-    print('i can drink beer')
-def hot():
-    print('i can drink beer')
-    
-    
+class IntValueError(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+        
+
+a = 10
+b =2
+
+if type(int(((a/b)**0.2)**2)) != int:
+    raise IntValueError('result is not in integer')
+else:
+    print(a/b)
